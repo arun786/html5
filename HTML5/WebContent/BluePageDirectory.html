@@ -3,15 +3,25 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
+<style type="text/css">
+td {
+	border-bottom: 1px dashed #ffffff;
+	padding: 5px;
+}
+h3{
+background: teal;
+padding: 5px;
+}
+</style>
 </head>
 <body style="margin: 0; background-color: blue;">
 	<h1
 		style="margin: 0; padding: 5px; background-color: yellow; color: red;">Blue
 		Developer Directory</h1>
-	<div>
-		<div>
-			<h4>Indian Developers</h4>
-			<table border="2">
+	<div style="width: 700px">
+		<div style="width: 400px; float: left; padding-right: 20px;">
+			<h3>Indian Developers</h3>
+			<table style="width: 400px">
 				<thead>
 					<tr>
 						<th>Name</th>
@@ -19,18 +29,10 @@
 						<th>Skill</th>
 					</tr>
 				</thead>
-
-				<tfoot>
-					<tr>
-						<th>Name</th>
-						<th>City</th>
-						<th>Skill</th>
-					</tr>
-				</tfoot>
 				<tbody>
 					<tr>
 						<td>Arun</td>
-						<td>Pune</td>
+						<td>Phoenix</td>
 						<td>Java,Spring,BigData</td>
 					</tr>
 					<tr>
@@ -40,14 +42,45 @@
 					</tr>
 				</tbody>
 			</table>
+
+			<h3>Phoenix Developers</h3>
+			<table style="width: 400px;">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>City</th>
+						<th>Skill</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>John</td>
+						<td>Cambridge</td>
+						<td>Java,Spring,BigData,Struts</td>
+					</tr>
+					<tr>
+						<td>Purcell</td>
+						<td>Winston</td>
+						<td>ETL,Bigdata</td>
+					</tr>
+				</tbody>
+			</table>
 		</div>
-		<div>
+
+		<div style="width: 250px;float: right;background-color: navy;padding-top: 10px;margin-top: 20px;">
+			<h4>Top developers</h4>
 			<ol>
-				<li>Java</li>
-				<li>ETL</li>
-				<li>Big Data</li>
+				<li>one</li>
+				<li>two</li>
 			</ol>
+			<hr />
+			<h4>Random Developers</h4>
+			<ul>
+				<li>three</li>
+				<li>four</li>
+			</ul>
 		</div>
 	</div>
+	<!-- main div ends -->
 </body>
 </html>
